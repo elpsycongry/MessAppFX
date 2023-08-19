@@ -55,9 +55,14 @@ public class Client {
             bufferedWriter.write(messageToSend);
             bufferedWriter.newLine();
             bufferedWriter.flush();
+            saveMessage(messageToSend);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+    public void saveMessage(String messageToSave){
+        Data data = new Data(userName,messageToSave);
+        MessageDAO.addMessToDatabase(data);
     }
 
     public Socket getSocket() {

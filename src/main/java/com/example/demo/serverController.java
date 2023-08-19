@@ -89,6 +89,7 @@ public class serverController implements Initializable {
                     hBox.getChildren().add(textFlow);
                     vbox_message.getChildren().add(hBox);
                     server.sendMessageToClient(messageToSend);
+
                     tf_mess.clear();
                 }
             }
@@ -96,17 +97,7 @@ public class serverController implements Initializable {
     }
 
     public void addPreviousText() {
-        ArrayList<Data> list = new ArrayList<>();
-        Data mess1 = new Data("client", "client contet");
-        Data mess2 = new Data("server", "server contet");
-        Data mess3 = new Data("client", "client contet");
-        Data mess4 = new Data("server", "server contet");
-
-        list.add(mess1);
-        list.add(mess2);
-        list.add(mess3);
-        list.add(mess4);
-
+        ArrayList<Data> list = MessageDAO.get20LastMessage();
         for (Data mess : list
         ) {
             HBox hBox = new HBox();

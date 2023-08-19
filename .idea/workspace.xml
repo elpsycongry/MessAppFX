@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48207965-a9a8-4e51-adf0-d304436ce45a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/demo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Data.java" afterDir="false" />
@@ -63,6 +56,14 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "946d82f0-28d1-4589-affd-52f81c91c6fb"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,7 +77,7 @@
       <recent name="com.example.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MessageDAO">
+  <component name="RunManager" selected="Application.ClientApp">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.Client" />
       <module name="demo" />
@@ -129,11 +130,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/java/com/example/demo/demo.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="946d82f0-28d1-4589-affd-52f81c91c6fb" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MessageDAO" />
         <item itemvalue="Application.ClientApp" />
         <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.MessageDAO" />
+        <item itemvalue="Database Script.demo.sql" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -157,7 +165,7 @@
       <workItem from="1692235258865" duration="8304000" />
       <workItem from="1692254055868" duration="637000" />
       <workItem from="1692260173879" duration="6724000" />
-      <workItem from="1692427075602" duration="6860000" />
+      <workItem from="1692427075602" duration="11639000" />
     </task>
     <servers />
   </component>
@@ -174,11 +182,6 @@
           <properties class="java.lang.ClassNotFoundException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/MessageDAO.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
